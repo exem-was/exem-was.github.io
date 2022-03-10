@@ -1,3 +1,19 @@
+---
+title:  "[JavaWeb] 3. 개발 환경 구축 및 웹 서버 실습 요구사항"
+excerpt: "자바 웹 프로그래밍 - 개발 환경 구축 및 웹 서버 실습 요구사항 파악"
+
+categories:
+  - JavaWeb
+tags:
+  - [java, web, nextstep]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-03-10
+last_modified_at: 2022-03-10
+---
+
 # 3장 개발 환경 구축 및 웹 서버 실습 요구사항
 
 3~6 장 실습에서 사용할 저장소

@@ -61,11 +61,9 @@ N = append() 연산 횟수
 
 전체 복사하는 원소의 수
 
-M + 2M + ... K*M 
+M + 2M + ... K*M  = 
 
-```
-[{(K+1)*K} / 2] * M = O(K^2) = O(N^2)$$
-```
+![image](https://user-images.githubusercontent.com/101074610/158286903-8be7dfe2-a4c2-49ea-8c43-b859e48bda7c.png)
 
 <BR>
 

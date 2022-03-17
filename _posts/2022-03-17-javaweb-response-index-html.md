@@ -30,7 +30,7 @@ Accept: */*
 
 ## RequestHandler
 
-```jsx
+```java
 public class RequestHandler extends Thread {
     private static final Logger log = LoggerFactory.getLogger(RequestHandler.class);
 
@@ -122,8 +122,8 @@ public class RequestHandler extends Thread {
 09:43:55.221 [DEBUG] [Thread-1] [webserver.RequestHandler] - line:
 ```
 
-- 각 요청의 첫 라인은 “GET /index.html HTTP/1.1” 과 같은 형태로 구성되어 있다.
-- 첫 번째 라인을 제외하고 요청 데이터 라인은 “<필드이름>: <필드 값>” 형태로 구성되어 있다.
+- 각 요청의 첫 라인은 `GET /index.html HTTP/1.1` 과 같은 형태로 구성되어 있다.
+- 첫 번째 라인을 제외하고 요청 데이터 라인은 `<필드이름>: <필드 값>` 형태로 구성되어 있다.
 - 각 요청의 마지막은 빈 문자열(””)로 구성되어 있다.
 
 웹 서버와 웹 클라이언트(웹 브라우저)는 데이터를 주고 받기 위해 HTTP 라는 규약을 사용한다.
@@ -136,13 +136,13 @@ HOST: localhost:8080.         <-- 요청 헤더
 Connection-Length: 59
 Content-Type: application/x-www-form-urlencoded
 Accept: */*   
-	<--- 헤더와 본문 사이의 빈 공백라인
+<-- 헤더와 본문 사이의 빈 공백라인 -->
 userId=javajigi&psssword=password <-- 요청 본문
 ```
 
 ## 요청 라인(Request Line)
 
-요청 라인은 “<HTTP-메소드> <URI> <HTTP-버전>”으로 구성되어 있다.
+요청 라인은 `<HTTP-메소드> <URI> <HTTP-버전>`으로 구성되어 있다.
 
 - 메서드는 요청의 종류를 말한다.
 - URI은 요청 자원의 경로다.
@@ -150,7 +150,7 @@ userId=javajigi&psssword=password <-- 요청 본문
 
 ## 요청 헤더(Request Headers)
 
-- 요청 헤더는 <필드이름> : <필드 값> 쌍으로 구성되어 있다.
+- 요청 헤더는 `<필드이름> : <필드 값>` 쌍으로 구성되어 있다.
 - 만약 필드 이름 하나에 여러 개의 필드 값을 전달하려면, 쉼표(,)를 구분자로 사용한다.
 `Accept-Encoding: gzip, deflat, sdch`
 

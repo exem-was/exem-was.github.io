@@ -15,7 +15,7 @@ last_modified_at: 2022-03-24
 ---
 # 요구사항2 - GET 방식으로 회원가입
 
-- 회원가입 메뉴를 누르면, `[http://localhost:8080/user/form.html](http://localhost:8080/user/form.html)` 로 이동하여 회원가입할 수 있다.
+- 회원가입 메뉴를 누르면, `/user/form.html` 로 이동하여 회원가입할 수 있다.
 
 ```
 GET /user/create?userId=javajigi&password=password&name=JaeSung HTTP/1.1

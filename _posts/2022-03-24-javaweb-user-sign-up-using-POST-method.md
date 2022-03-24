@@ -112,7 +112,8 @@ Accpet: */*
 userId=javajigi&password=password&name=JaeSung
 ```
 
-## 
+## 구현코드
+
 ```java
 public class RequestHandler extends Thread {
     private static final Logger log = LoggerFactory.getLogger(RequestHandler.class);

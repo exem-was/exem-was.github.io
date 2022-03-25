@@ -63,7 +63,7 @@ HTTP/1.1 302 Found
 Location: /index.html
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d290c3f-42af-4990-978f-a6252856bab0/Untitled.png)
+![image](https://user-images.githubusercontent.com/53162296/160034604-a063272d-9098-4307-84b4-4cd19f4eb0fe.png)
 
 ## 구현 코드
 

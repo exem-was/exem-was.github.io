@@ -1,3 +1,18 @@
+---
+title:  "[JavaWeb] 4장 HTTP 웹 서버 구현을 통해 HTTP 이해하기"
+excerpt: "자바 웹 프로그래밍 - 요구사항 5 - 로그인하기"
+
+categories:
+  - JavaWeb
+tags:
+  - [java, web, nextstep]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-03-31
+last_modified_at: 2022-03-31
+---
 # 요구사항 5 - 로그인하기
 
 - “로그인" 메뉴를 클릭하면 `/user/login.html` 로 이동하여 로그인할 수 있다.

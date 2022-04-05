@@ -66,9 +66,7 @@ remaining.push(i);
 
 ![image](https://user-images.githubusercontent.com/53162296/161770702-24b9d03b-fb16-4342-aac6-9c374f055b5b.png)
 
-(b) 현재 블록이 아직 stack R 보다 크므로 아직 최대 사각형 끝이 안나왔다.
-
-쌓아주고 넘어간다
+(b) 현재 블록이 아직 stack R 보다 크므로 아직 최대 사각형 끝이 안나왔으므로 쌓아주고 넘어간다
 
 ```java
 remaining.push(i);
@@ -76,7 +74,7 @@ remaining.push(i);
 
 ![image](https://user-images.githubusercontent.com/53162296/161770744-968f2146-a33c-4fe7-af2a-b4011be6ce90.png)
 
-(c) 드디어 현재 블록이 stack R 보다 작다 == 최대 사각형의 마지막 포인트다.
+(c) 드디어 현재 블록이 stack R 보다 작다 == 최대 사각형의 마지막 포인트이므로 연산해준다.
 
 ```java
 //while 문 조건 성립
@@ -84,7 +82,7 @@ int j = remaining.top(); // stack R 꺼내서 저장하고
 remaining.pop(); // 지우고
 
 int width = -1;
-//stack 에 값이 비어있으면 -1 
+//stack 에 값이 비어있으면 가장 왼쪽 포인트이므로 width = i
 			if (remaining.empty())
 				width = i;
 //아니면 i = 2 이므로 2 - 0 - 1 = 1 이므로 너비 1
@@ -97,11 +95,7 @@ ret = max(ret, h[j] * width);
 
 ![image](https://user-images.githubusercontent.com/53162296/161770812-a9156bb1-4273-431a-97e3-6f29e9362c21.png)
 
-(d) 에서 현재 블록이
-
-remaining 이 empty 상태가 아니고, 현재 높이가 stack R 보다 크니까
-
-쌓아주고 넘어간다
+(d) 에서 현재 블록이 remaining 이 empty 상태가 아니고, 현재 높이가 stack R 보다 크니까 while 통과하고 스택에 쌓아주고 넘어간다
 
 ```java
 remaining.push(i);
@@ -120,7 +114,7 @@ int j = remaining.top(); // stack R 꺼내고
 remaining.pop(); // 지우고
 
 int width = -1;
-//stack 에 값이 비어있으면 -1 
+//stack 에 값이 비어있으면 가장 왼쪽 포인트이므로 width = i
 			if (remaining.empty())
 				width = i;
 //아니면 i = 4 이므로 4 - 2 - 1 = 1 이므로 너비 1
@@ -133,7 +127,7 @@ ret = max(ret, h[j] * width);
 
 ![image](https://user-images.githubusercontent.com/53162296/161770947-ff543482-616b-4a3a-8779-ee5d3398fbf6.png)
 
-(f) stack R 보다 작은 값이 들어왔으므로 최대 사각형의 끝값이다. (e) 와 같이 연산
+(f) stack R 보다 작은 값이 들어왔으므로 최대 사각형의 끝값이므로 (e) 와 같이 연산한다.
 
 ```java
 // stack R(5번째 판자) 꺼내서 j에 저장하고 지우고
@@ -147,7 +141,7 @@ ret = max(ret, h[j] * width);
 
 ![image](https://user-images.githubusercontent.com/53162296/161770998-d727185c-56a2-4e39-a8ee-7e20d5100a12.png)
 
-(g) 오른쪽에 값이 0 이므로 최대 사각형의 끝이다.
+(g) for 문에 들어왔을 때 i = 6으로 값이 0 이므로 최대 사각형의 끝이다.
 
 ```java
 // stack R(6번째 판자) 꺼내서 j에 저장하고 지우고
@@ -188,13 +182,13 @@ if (remaining.empty())
 ret = max(ret, h[j] * width);
 ```
 
-이후에는 조건 중 !remaining.empty()로 인해 걸리지 않으므로 
-
-다음 for 문으로 넘어가고 i = 7로 for 문도 함께 종료된다.
+이후에는 조건 중 !remaining.empty()로 인해 걸리지 않으므로 while 조건에서 넘어간다.
 
 ```java
 while (!remaining.empty() && h[remaining.top()] >= h[i]) {...
 ```
+
+다음 for 문으로 넘어가고 i = 7로 for 문도 함께 종료된다.
 
 ##
 

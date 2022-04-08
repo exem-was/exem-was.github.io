@@ -43,7 +43,7 @@ last_modified_at: 2022-04-07
     ```sql
     GET /user/create?userId=javajigi&password=password&name=JaeSung HTTP/1.1
     Host: localhost:8080
-    ConnectionL keep-alive
+    Connection: keep-alive
     Accept: */*
     
     ```
@@ -51,7 +51,7 @@ last_modified_at: 2022-04-07
     ```sql
     POST /user/create HTTP/1.1
     Host: localhost:8080
-    ConnectionL keep-alive
+    Connection: keep-alive
     Content-Length: 46
     Content-Type: application/x-www-form-urlencoded
     Accept: */*
@@ -63,7 +63,7 @@ last_modified_at: 2022-04-07
 2. 테스트 코드 작성
     
     ```sql
-    public class HttpRequestTest extends TestCase {
+    public class HttpRequestTest {
         private String testDirectory = "./src/main/resources/";
     
         @Test

@@ -1,5 +1,5 @@
 ---
-title:  "[Algorithm] 20. 문자열 (3/3)"
+title:  "[Algorithm] 20. 문자열"
 excerpt: "20.2 문자열 검색"
 
 categories:

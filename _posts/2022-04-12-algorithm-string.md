@@ -1,6 +1,6 @@
 ---
 title:  "[Algorithm] 20. 문자열"
-excerpt: "20.2 문자열 검색"
+excerpt: "20.2 문자열 검색 (2/3)"
 
 categories:
   - Algorithm

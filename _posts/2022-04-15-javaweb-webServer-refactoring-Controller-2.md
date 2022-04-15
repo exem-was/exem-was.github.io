@@ -28,7 +28,7 @@ Map의 key 에 해당하는 String 은 요청 URL 이고 value 에 해당하는 
 - Controller 인터페이스를 구현하는 AbstractController 추상 클래스를 추가해 중복을 제거한다.
 - service() 메소드에서 GET 과 POST HTTP 메소드에 따라 doGet(), doPost() 메소드를 호출한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/89f7ad13-3150-4ad0-bac6-5682ac32f26f/Untitled.png)
+<img width="719" alt="image" src="https://user-images.githubusercontent.com/53162296/163581412-0841abc8-2b07-4324-a0a7-8c0cb8b4c42c.png">
 
 ### 5.2.4 HTTP 웹 서버의 문제점
 

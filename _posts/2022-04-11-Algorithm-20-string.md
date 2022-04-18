@@ -21,7 +21,7 @@ last_modified_at: 2022-04-11
 
 일곱 글자가 대응되었다는 사실을 이용하면 시작 위치 중 일부는 답이 될 수 없을 보지 않아도 된다.
 
-![pic](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87c7805b-dfe8-4a35-a4d3-ca48d2d97203%2FUntitled.png?table=block&id=d8b6b9ea-cfb9-434b-8e8c-6094ee23d562&spaceId=8d1eef48-8220-4816-bedb-bfc1292b9ba6&width=1440&userId=cffe33a7-b80f-40d5-acf1-4a9eb55fae00&cache=v2)
+![image](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87c7805b-dfe8-4a35-a4d3-ca48d2d97203%2FUntitled.png?table=block&id=d8b6b9ea-cfb9-434b-8e8c-6094ee23d562&spaceId=8d1eef48-8220-4816-bedb-bfc1292b9ba6&width=1440&userId=cffe33a7-b80f-40d5-acf1-4a9eb55fae00&cache=v2)
 
 그림 20.2를 보면, 위치 i에서 일곱 글자가 일치하기 위해서는 H의 부분 문자열인 H[i..i+6]이 “aabaaba” 이어야 한다.
 
@@ -35,7 +35,7 @@ H 문자열의 i+6까지 시작 위치를 하나씩 시도해보면 답이 될 �
 
 ## 다음 시작 위치 찾기
 
-![picd](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf47c881-c0cb-4208-8c99-179505132f1c%2FUntitled.png?table=block&id=2924f6e1-6367-4c10-bc9f-d406d70635f6&spaceId=8d1eef48-8220-4816-bedb-bfc1292b9ba6&width=1440&userId=cffe33a7-b80f-40d5-acf1-4a9eb55fae00&cache=v2)
+![image](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf47c881-c0cb-4208-8c99-179505132f1c%2FUntitled.png?table=block&id=2924f6e1-6367-4c10-bc9f-d406d70635f6&spaceId=8d1eef48-8220-4816-bedb-bfc1292b9ba6&width=1440&userId=cffe33a7-b80f-40d5-acf1-4a9eb55fae00&cache=v2)
 
 문자열 S에서 부분 문자열 N이 일치하는 S의 시작 위치 인덱스를 찾으려고 한다.
 

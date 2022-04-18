@@ -21,7 +21,7 @@ last_modified_at: 2022-04-18
 
 ### 구현 방법
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff41cb14-ea86-4e75-9920-8bccaa139562/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ff41cb14-ea86-4e75-9920-8bccaa139562/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220418T034744Z&X-Amz-Expires=86400&X-Amz-Signature=8ba65afad7c9875ab6b5b3b436d3370c94e3a8b080598f5d173920d3646efb1c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 방법: 문자열 S를 뒤집은 문자열 S’를 만든 뒤 S의 접미사 이면서 S’ 의 접두사인 문자열 탐색
 

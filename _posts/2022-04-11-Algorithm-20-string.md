@@ -35,7 +35,7 @@ H 문자열의 i+6까지 시작 위치를 하나씩 시도해보면 답이 될 �
 
 ## 다음 시작 위치 찾기
 
-![image](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf47c881-c0cb-4208-8c99-179505132f1c%2FUntitled.png?table=block&id=2924f6e1-6367-4c10-bc9f-d406d70635f6&spaceId=8d1eef48-8220-4816-bedb-bfc1292b9ba6&width=1440&userId=cffe33a7-b80f-40d5-acf1-4a9eb55fae00&cache=v2)
+![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e98edf35-d603-4004-863c-a59525fd391f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220419T034458Z&X-Amz-Expires=86400&X-Amz-Signature=4e29c50f68aac335ed84935a3315e820f40ec09cd5b285cf93f43ccbed0ff09b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 문자열 S에서 부분 문자열 N이 일치하는 S의 시작 위치 인덱스를 찾으려고 한다.
 

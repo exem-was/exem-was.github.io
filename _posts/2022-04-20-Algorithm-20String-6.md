@@ -26,7 +26,7 @@ last_modified_at: 2022-04-20
     
 - “alohomora” 의 접미사 배열 A[] 와 각 위치에서 시작하는 접미사들을 보여줍니다.
     
-[pic](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e98edf35-d603-4004-863c-a59525fd391f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220421T161949Z&X-Amz-Expires=86400&X-Amz-Signature=dd341859e0460cd0c2d39b0f235d96341b8fd886f96647a09fd67394dd074321&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![pic](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e98edf35-d603-4004-863c-a59525fd391f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220421T161949Z&X-Amz-Expires=86400&X-Amz-Signature=dd341859e0460cd0c2d39b0f235d96341b8fd886f96647a09fd67394dd074321&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 
 ### 접미사 배열을 이용한 문자열 검색
@@ -107,4 +107,4 @@ public class SuffixArray_Sort {
     4. 이렇게 log N 번의 정렬을 하고 나면 원하는 접미사 배열을 얻는다.
 - 정렬을 많이 하지만 이전 정렬에서 얻은 정보를 사용해 두 문자열 대소 비교를 O(1)에 할 수 있다.
 
-](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/93be659d-216e-420e-b62d-633400cc441a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220421T161953Z&X-Amz-Expires=86400&X-Amz-Signature=788e8546d3effe80ef67d678f2edbbf3ed54007338cb2e83c1b4d141fd00c9e3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![pic](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/93be659d-216e-420e-b62d-633400cc441a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220421T161953Z&X-Amz-Expires=86400&X-Amz-Signature=788e8546d3effe80ef67d678f2edbbf3ed54007338cb2e83c1b4d141fd00c9e3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)

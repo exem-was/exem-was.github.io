@@ -147,7 +147,7 @@ width = (i - remaining.top() - 1);
 ret = max(ret, h[j] * width);
 ```
 
-![[그림] for 문 비교 후 ++i 로 i = 6](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d608d92c-c160-4465-a4da-2ffac7f9ead5/Untitled.png)
+![pic](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d608d92c-c160-4465-a4da-2ffac7f9ead5/Untitled.png)
 
 [그림] for 문 비교 후 ++i 로 i = 6
 

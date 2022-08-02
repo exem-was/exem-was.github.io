@@ -36,7 +36,7 @@ arr	answer
 
 
 ## 문제 풀이
-## 창원풀이
+## John 풀이
 ```java
 public int[] solution(int [] arr) {
     List<Integer> ans = new ArrayList<>();
@@ -53,7 +53,7 @@ public int[] solution(int [] arr) {
             .toArray();
 }
 ```
-## 경윤 풀이
+## Chip 풀이
 ```java
 public int[] solution(int [] arr) {
   Stack<Integer> temp = new Stack<>();
@@ -68,7 +68,7 @@ public int[] solution(int [] arr) {
 }
 ```
 
-## 희정 풀이
+## Hazel 풀이
 ```java
 public int[] solution(int []arr) {
     Deque<Integer> stack = new ArrayDeque<>();
@@ -87,7 +87,7 @@ public int[] solution(int []arr) {
     return answer;
 }
 ```
-## 규민 풀이
+## GM 풀이
 ```java
 public int[] solution(int []arr) {
   Deque<Integer> stack = new ArrayDeque<>();
@@ -122,7 +122,7 @@ s	answer
 
 ## 문제 풀이
 
-## 창원 풀이
+## John 풀이
 ```java
 boolean solution(String s) {
     Deque<Character> deque = new ArrayDeque<>(s.length());
@@ -146,7 +146,7 @@ boolean solution(String s) {
 테스트 2 〉	통과 (14.79ms, 53.3MB)
 ```
 
-## 경윤 풀이
+## Chip 풀이
 ```java
 boolean solution(String s) {
    if (s.length() % 2 == 1) {
@@ -177,7 +177,7 @@ boolean solution(String s) {
 ```
 
 
-## 희정 풀이
+## Hazel 풀이
 ```java
 boolean solution(String s) {
     if (s.length() % 2 == 1 || s.charAt(0) == ')'){
